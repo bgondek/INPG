@@ -20,7 +20,7 @@ int main(void)
 	t=t++;
 	t=t++;
 	t=t++;
-	printf("\n nasze te po tym wszystkim %3d \n",t);
+	printf("\n nasze SGDAte po tym wszystkim %3d \n",t);
 	t=t++;
 	t=t++;
 	printf("wciśnij cokolwiek by zakończyć");
