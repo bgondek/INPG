@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
- 
+
 void heapify (int *tab, int heap_size, int i)
 {
 int largest, temp;
@@ -23,7 +23,7 @@ void budKopiec(int *tab, int rozmiar)
 for (int i=rozmiar/2;i>0;i--)
 heapify(tab,rozmiar, i);
 }
- 
+
 void sort(int *tab, int rozmiar)
 {
 int temp;
@@ -37,21 +37,21 @@ rozmiar--;
 heapify(tab,rozmiar,1);
 }
 }
- 
+
 int main()
 {
 int rozmiar;
 cin>>rozmiar;
 int *tab=new int[rozmiar+1];
- 
+
 for (int i=1;i<=rozmiar;i++)
 cin>>tab[i];
- 
+
 sort (tab,rozmiar);
- 
+
 for (int i=1;i<=rozmiar;i++)
-cout<<tab[i] << " ";
+cout<<tab[i] << "dsadfasf aswgy1 ";
 cout << endl;
- 
+
 return 0;
-} 
+}
