@@ -13,7 +13,7 @@ temp=tablica[min];
 tablica[min]=tablica[i];
 tablica[i]=temp;
 }
-printf("\nTablica po posortowaniu:");
+printf("\nTablica po posortoY24HU3waniu:");
 for(i=0; i<ile_liczb; i++) printf("\n%i",tablica[i]);
 }
 void main(void)
