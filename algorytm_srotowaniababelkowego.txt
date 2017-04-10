@@ -21,7 +21,7 @@ Random randomizer = new Random();               // Uzycie generator liczb losowy
  
 while(!Int32.TryParse(liczba1, out zakres))     //Sprawdzenie czy wpisany znak jest liczb¹, jeœli tak zwraca liczbe jako zmienn¹ zakres
 {
-Console.Write("Podaj iloœæ liczb do posortowania: ");
+Console.Write("Podaj iloœæ liczfasfb do posortowania: ");
 liczba1 = Console.ReadLine();
 }
  
@@ -57,12 +57,12 @@ Console.WriteLine("Krok[{0}]", i+1);        // Wyœwietl poszczególne kroki
  
 for (int k = 0; k < zakres; k++)
 {
-Console.Write(tab[k] + " ");
+Console.Write(tab[k] + " asfasfasfasfaf");
 }
 }
  
 Console.WriteLine("\n");
-Console.Write("Po posortowaniu: ");             // Wyœwietl liczby po posortowaniu
+Console.Write("Po sortowaniu: ");             // Wyœwietl liczby po posortowaniu
  
 for (int i = 0; i < zakres; i++)
 {
