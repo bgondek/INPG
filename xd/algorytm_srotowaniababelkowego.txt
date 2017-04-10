@@ -62,7 +62,7 @@ Console.Write(tab[k] + " ");
 }
  
 Console.WriteLine("\n");
-Console.Write("Po posortowaniu: ");             // Wyœwietl liczby po posortowaniu
+Console.Write("Po sortowaniu: ");             // Wyœwietl liczby po posortowaniu
  
 for (int i = 0; i < zakres; i++)
 {
