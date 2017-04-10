@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
- 
+
 void countingsort(int A[], int B[], int k, int rozmiar)
 {
 int i;
@@ -20,7 +20,7 @@ C[(A[i])]--; // zmniejszenie indeksu C[i] - odejmujemy wpisana przed chwila licz
 }
 delete [] C;
 }
- 
+
 int max_liczba(int tablica[], int rozmiar)
 {
 int max = tablica[0];
@@ -31,31 +31,31 @@ max = tablica[i];
 }
 return max;
 }
- 
+
 int main()
 {
 int ilosc_liczb, i;
-cout << "Podaj ilosc licz do posortowania: ";
+cout << "Podaj ilosc liczddd do posortowania: ";
 cin >> ilosc_liczb;
 // utworzenie dynamicznej dwoch tablic na 'ilosc_liczb' elementow
 int *tablica_wejsciowa = new int [ilosc_liczb]; // tablica zawierajaca ciag wejsciowy
 int *tablica_wyjsciowa = new int [ilosc_liczb]; // tablica zawierajaca posortowany ciag
- 
+
 for (i = 0; i < ilosc_liczb; i++) // wczytywanie liczb do tablicy
 {
 cout << "Podaj liczba: ";
 cin >> tablica_wejsciowa[i];
 }
- 
+
 int k = max_liczba(tablica_wejsciowa, ilosc_liczb); // wyszukanie najwiekszej liczby w ciagu wejsciowym
 countingsort(tablica_wejsciowa,tablica_wyjsciowa, k, ilosc_liczb); // wywolanie funkcji sortujacej
- 
+
 for (i = 0; i < ilosc_liczb; i++) // wypisanie posortowanej tablicy
 cout << "tablica[" << i << "] = " << tablica_wyjsciowa[i] << endl;
- 
+
 // zwolnienie tablic zaalokowanych dynamicznie
 delete [] tablica_wejsciowa;
 delete [] tablica_wyjsciowa;
- 
+
 return 0;
 }
